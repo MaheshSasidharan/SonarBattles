@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="100" >
+    
+   <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paused"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" 
+    android:layout_weight="40">
+
+    <Button
+        android:background="@null"
+        android:textColor="#FFFFFF"
+        android:id="@+id/bReturnToGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return To Game" 
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:background="@null"
+        android:textColor="#FFFFFF"
+        android:id="@+id/bGoToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Menu" 
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:background="@null"
+        android:textColor="#FFFFFF"
+        android:id="@+id/bQuitGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quit Game"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="30dp" />
+
+</LinearLayout>
+
+</LinearLayout>

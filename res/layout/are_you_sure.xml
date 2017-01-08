@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/tvMytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are You Sure You Want To"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bAbsolutely"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@null"
+            android:text="Absolutely"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/bNotReally"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@null"
+            android:text="Not Really"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

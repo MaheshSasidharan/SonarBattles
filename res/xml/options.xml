@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="name"
+        android:maxLength="10"
+        android:summary="Enter Your Name"
+        android:title="Player Name"
+        android:singleLine = "true" >
+    </EditTextPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="MusicKey"
+        android:summary="Deafening Silence at War!!"
+        android:title="Music" >
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:entries="@array/list"
+        android:entryValues="@array/lValues"
+        android:key="difficulty_key"
+        android:summary="Do you Dare??"
+        android:title="Choose Difficulty Level" >
+    </ListPreference>
+
+</PreferenceScreen>

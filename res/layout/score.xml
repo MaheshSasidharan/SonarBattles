@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gameintro"
+    android:gravity="left|right"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Your Score is"
+        android:textSize="40dp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#44FFFFFF" >
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow android:background="#77000000" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Rank"
+                android:textColor="#FFFF0000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Name"
+                android:textColor="#FFFF0000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Score"
+                android:textColor="#FFFF0000"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+
+        <TableRow android:id="@+id/trRow1" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="General"
+                android:textColor="#FFAAFF00" />
+
+            <TextView
+                android:id="@+id/tvName1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#FF330033"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvScore1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#FFFFFFFF"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/trRow2" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Lieutenant General"
+                android:textColor="#FFFF695F" />
+
+            <TextView
+                android:id="@+id/tvName2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#FF330033"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvScore2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#FFFFFFFF"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/trRow3" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Major General"
+                android:textColor="#FF35F500" />
+
+            <TextView
+                android:id="@+id/tvName3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#FF330033"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvScore3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#FFFFFFFF"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/trRow4" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Brigadier General"
+                android:textColor="#FFFFBBB0" />
+
+            <TextView
+                android:id="@+id/tvName4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#FF330033"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvScore4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#FFFFFFFF"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:id="@+id/trRow5" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Colonel"
+                android:textColor="#FFFF695F" />
+
+            <TextView
+                android:id="@+id/tvName5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#FF330033"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvScore5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#FFFFFFFF"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FFFFFFFF" />
+    </TableLayout>
+
+</LinearLayout>

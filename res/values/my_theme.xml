@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="YourTheme" parent="android:@Theme.Translucent">
+        <item name="android:windowBackground">@color/my_opaque</item>
+    </style>
+
+    <style name="PreferencesTheme">
+        <item name="android:windowBackground">@drawable/z_ocean</item>
+    </style>
+
+</resources>
